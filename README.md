@@ -9,7 +9,6 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 ## Features
 - Interactive tree visualization of hierarchical data.
 - Node hover effect to display additional information.
-- Responsive design to accommodate various screen sizes.
 - Integration with a MongoDB database for data storage and retrieval.
 
 ## Technologies Used

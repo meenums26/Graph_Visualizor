@@ -1,4 +1,6 @@
 # Visualize Graph Data
+<img width="960" alt="GraphVisualizer" src="https://github.com/user-attachments/assets/d0f6aa8b-a44d-4540-a59a-b7f34c3c3fb9">
+
 
 ## Project Overview
 Visualize Graph Data is a web application that provides an interactive visualization of hierarchical data using D3.js. The application allows users to explore nodes and their relationships in a tree structure, providing detailed information about each node through a hover effect.

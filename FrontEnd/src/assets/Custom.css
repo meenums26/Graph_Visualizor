@@ -1,0 +1,39 @@
+#app {
+    display: flex;
+    flex-direction: row;
+  }
+  svg {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 1px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .modal h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .modal p {
+    font-size: 16px;
+    color: #555;
+  }

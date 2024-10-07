@@ -1,36 +1,13 @@
 <template>
   <div id="app">
-    <GraphVisualization />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import GraphVisualization from './components/GraphVisualization.vue';
+import './assets/Custom.css';
 
 export default {
-  data() {
-    return {
-      selectedNode: null,
-    };
-  },
-  components: {
-    GraphVisualization,
-   
-  },
-  methods: {
-    selectNode(node) {
-      this.selectedNode = node;
-    },
-    deselectNode() {
-      this.selectedNode = null;
-    },
-  },
+  name: 'App',
 };
 </script>
-
-<style>
-#app {
-  display: flex;
-  flex-direction: row;
-}
-</style>

@@ -31,18 +31,22 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 
 ## Installation
 1. Clone the repository:
+   
    git clone https://github.com/meenums26/Graph_Visualizor
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+   
     cd VisualizeGraphData
-3. Install dependencies for the backend:
+4. Install dependencies for the backend:
+   
     cd BackEnd
    
     npm install
-5. Install dependencies for the frontend:
+6. Install dependencies for the frontend:
+   
     cd FrontEnd
    
     npm install
-7. Create an .env file in the root of the project and define the following environment variables
+8. Create an .env file in the root of the project and define the following environment variables
    
     example username = mickel23, password = 123Secret, cluster-url = cluster0.ozu22.mongodb.net , database = graphVisualizer
     
@@ -52,10 +56,12 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 
 ## Usage
 1. Start the backend server:
+   
     cd BackEnd
    
     npm start
 3. Start the frontend application:
+   
     cd FrontEnd
    
     npm run serve
@@ -77,11 +83,13 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 
 ## Testing
 1.Front End
+
   cd FrontEnd
   
   npm test
   
 2. Back End
+   
   cd BackEnd
 
   npm test

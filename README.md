@@ -34,7 +34,7 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/yourusername/VisualizeGraphData.git
+   git clone https://github.com/meenums26/Graph_Visualizor
 2. Navigate to the project directory:
     cd VisualizeGraphData
 3. Install dependencies for the backend:

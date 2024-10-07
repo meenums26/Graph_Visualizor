@@ -26,7 +26,7 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 - **Database:**
   - Create an .env file in the root of the project and define the following environment variables
   - 
-    example username = mickel23, password = 12#Secret, cluster-url = cluster0.ozu22.mongodb.net , database = graphVisualizer
+    example username = mickel23, password = 123Secret, cluster-url = cluster0.ozu22.mongodb.net , database = graphVisualizer
     
     PORT = 5000
     

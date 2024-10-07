@@ -28,7 +28,7 @@ Visualize Graph Data is a web application that provides an interactive visualiza
     example username = mickel23, password = 12#Secret
     PORT = 5000
     
-    DB_URI=mongodb+srv://mickel123:password@<cluster-url>/<database>?retryWrites=true&w=majority
+    DB_URI=mongodb+srv://username:password@<cluster-url>/<database>?retryWrites=true&w=majority
 
   
 - **Testing:**

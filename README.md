@@ -62,8 +62,11 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 5. Open your browser and navigate to http://localhost:8080 to view the application.
 ## API End Points
 1. GET /data
+   
     Retrieves the hierarchical data from the MongoDB database.
+   
     sample response :
+   
   "data": [
       {
         "name": "A",
@@ -75,9 +78,11 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 ## Testing
 1.Front End
   cd FrontEnd
+  
   npm test
   
 2. Back End
   cd BackEnd
+
   npm test
 

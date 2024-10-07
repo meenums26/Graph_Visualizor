@@ -24,14 +24,7 @@ Visualize Graph Data is a web application that provides an interactive visualiza
   - Mongoose (for MongoDB interaction)
   
 - **Database:**
-  - Create an .env file in the root of the project and define the following environment variables
-  - 
-    example username = mickel23, password = 123Secret, cluster-url = cluster0.ozu22.mongodb.net , database = graphVisualizer
-    
-    PORT = 5000
-    
-    DB_URI=mongodb+srv://username:password@cluster-url/database?retryWrites=true&w=majority
-
+  - MongoDB
   
 - **Testing:**
   - Jest
@@ -43,20 +36,30 @@ Visualize Graph Data is a web application that provides an interactive visualiza
     cd VisualizeGraphData
 3. Install dependencies for the backend:
     cd BackEnd
+   
     npm install
-4. Install dependencies for the frontend:
+5. Install dependencies for the frontend:
     cd FrontEnd
+   
     npm install
-5. Set up your environment variables in a .env file in the BackEnd directory:
-    DB_URI=your_mongodb_connection_string
+7. Create an .env file in the root of the project and define the following environment variables
+   
+    example username = mickel23, password = 123Secret, cluster-url = cluster0.ozu22.mongodb.net , database = graphVisualizer
+    
+    PORT = 5000
+    
+    DB_URI=mongodb+srv://username:password@cluster-url/database?retryWrites=true&w=majority
+
 ## Usage
 1. Start the backend server:
     cd BackEnd
+   
     npm start
-2. Start the frontend application:
+3. Start the frontend application:
     cd FrontEnd
+   
     npm run serve
-3. Open your browser and navigate to http://localhost:8080 to view the application.
+5. Open your browser and navigate to http://localhost:8080 to view the application.
 ## API End Points
 1. GET /data
     Retrieves the hierarchical data from the MongoDB database.

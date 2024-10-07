@@ -64,6 +64,7 @@ Visualize Graph Data is a web application that provides an interactive visualiza
 1.Front End
   cd FrontEnd
   npm test
+  
 2. Back End
   cd BackEnd
   npm test
